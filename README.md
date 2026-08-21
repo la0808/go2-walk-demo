@@ -2,9 +2,9 @@
 
 四足机器人强化学习走路过程对比视频。
 
-https://github.com/la0808/go2-walk-demo/raw/main/demo.mp4
+**在线播放（推荐）：** https://la0808.github.io/go2-walk-demo/
 
-![demo](demo.mp4)
+或下载视频： [demo.mp4](demo.mp4)
 
 **片段顺序：**
 1. baseline前期同手同脚pace步态

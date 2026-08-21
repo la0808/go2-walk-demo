@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Go2 Locomotion Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 880px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    video { width: 100%; background: #111; }
+    ol { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>Go2 Locomotion Demo</h1>
+  <p>四足机器人强化学习走路过程对比视频。</p>
+  <video controls playsinline src="./demo.mp4"></video>
+  <h2>片段顺序</h2>
+  <ol>
+    <li>baseline前期同手同脚pace步态</li>
+    <li>baseline后期（局部最优切换）</li>
+    <li>接触相位奖励改善局部最优切换，前期即学习到相位变化</li>
+    <li>质心双惩罚稳定机身</li>
+    <li>roll角偏离默认位置惩罚防髋外展/内收</li>
+    <li>sim-to-sim验证</li>
+  </ol>
+</body>
+</html>
